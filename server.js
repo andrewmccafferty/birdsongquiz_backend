@@ -11,7 +11,7 @@ const getRandomArrayElement = (items) => {
 
 const selectRandomSpecies = () => {
     let randomElement = getRandomArrayElement(speciesList);
-    return randomElement.Species;
+    return randomElement.ScientificName;
 };
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
