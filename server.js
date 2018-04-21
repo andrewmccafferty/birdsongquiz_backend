@@ -13,6 +13,12 @@ const selectRandomSpecies = () => {
     let randomElement = getRandomArrayElement(speciesList);
     return randomElement.Species;
 };
+app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+});
+
 app.get('/api/birdsong', (req, res) => {
     let species = selectRandomSpecies();
     let url = `https://www.xeno-canto.org/api/2/recordings?query=${encodeURIComponent(species)}`;
