@@ -6,7 +6,7 @@ const selectRandomSpecies = (level) => {
     let filteredSpeciesList = speciesList;
     if (level) {
         filteredSpeciesList = speciesList.filter((element) => {
-            return element.level == level;
+            return element.Level == level;
         });
     }
     let randomElement = arrayHelpers.getRandomArrayElement(filteredSpeciesList);
