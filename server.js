@@ -19,6 +19,12 @@ app.use(function(req, res, next) {
     next();
 });
 
+app.get('/api/species', (req, res) => {
+    res.setHeader('Content-Type', 'application/json');
+    res.send({
+        species: speciesList
+    });
+});
 app.get('/api/birdsong', (req, res) => {
     let species = selectRandomSpecies();
     let url = `https://www.xeno-canto.org/api/2/recordings?query=${encodeURIComponent(species)}`;

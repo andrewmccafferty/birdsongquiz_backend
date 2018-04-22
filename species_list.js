@@ -1,70 +1,94 @@
 module.exports = [ {
     "Species": "Brent Goose",
-    "ScientificName": "Branta bernicla"
+    "ScientificName": "Branta bernicla",
+    "level": 2,
+    "locations": [
+        "uk",
+        "europe"
+    ],
+    "habitats": [
+        "coastal"
+    ]
   },
   {
     "Species": "Red-breasted Goose",
-    "ScientificName": "Branta ruficollis"
+    "ScientificName": "Branta ruficollis",
+      "level": 5,
+      "locations": [
+          "europe"
+      ],
+      "habitats": [
+          "coastal"
+      ]
   },
   {
     "Species": "Canada Goose",
-    "ScientificName": "Branta canadensis"
+    "ScientificName": "Branta canadensis",
+      "level": 2,
+      "locations": [
+          "uk",
+          "europe"
+      ]
   },
   {
     "Species": "Barnacle Goose",
-    "ScientificName": "Branta leucopsis"
-  },
-  {
-    "Species": "Snow Goose",
-    "ScientificName": "Anser caerulescens"
+    "ScientificName": "Branta leucopsis",
+      "level": 3
   },
   {
     "Species": "Greylag Goose",
-    "ScientificName": "Anser anser"
+    "ScientificName": "Anser anser",
+      "level": 2
   },
   {
     "Species": "Pink-footed Goose",
-    "ScientificName": "Anser brachyrhynchus"
+    "ScientificName": "Anser brachyrhynchus",
+      "level": 2
   },
   {
     "Species": "White-fronted Goose",
-    "ScientificName": "Anser albifrons"
+    "ScientificName": "Anser albifrons",
+      "level": 5
   },
   {
     "Species": "Mute Swan",
-    "ScientificName": "Cygnus olor"
+    "ScientificName": "Cygnus olor",
+      "level": 2
   },
   {
     "Species": "Bewick's Swan",
-    "ScientificName": "Cygnus columbianus"
+    "ScientificName": "Cygnus columbianus",
+      "level": 3
   },
   {
     "Species": "Whooper Swan",
-    "ScientificName": "Cygnus cygnus"
+    "ScientificName": "Cygnus cygnus",
+      "level": 3
   },
   {
     "Species": "Egyptian Goose",
-    "ScientificName": "Alopochen aegyptiaca"
+    "ScientificName": "Alopochen aegyptiaca",
+      "level": 4
   },
   {
     "Species": "Shelduck",
-    "ScientificName": "Tadorna tadorna"
+    "ScientificName": "Tadorna tadorna",
+      "level": 2
   },
   {
     "Species": "Garganey",
-    "ScientificName": "Spatula querquedula"
-  },
-  {
-    "Species": "Blue-winged Teal",
-    "ScientificName": "Spatula discors"
+    "ScientificName": "Spatula querquedula",
+      "level": 5
   },
   {
     "Species": "Shoveler",
-    "ScientificName": "Spatula clypeata"
+    "ScientificName": "Spatula clypeata",
+      "level": 3
   },
   {
     "Species": "Gadwall",
-    "ScientificName": "Mareca strepera"
+    "ScientificName": "Mareca strepera",
+      "level": 3
   },
   {
     "Species": "Wigeon",
