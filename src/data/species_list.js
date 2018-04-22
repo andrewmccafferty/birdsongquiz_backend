@@ -864,7 +864,8 @@ module.exports = [ {
   },
   {
     "Species": "Magpie",
-    "ScientificName": "Pica pica"
+    "ScientificName": "Pica pica",
+      "level": 1
   },
   {
     "Species": "Chough",
@@ -912,11 +913,13 @@ module.exports = [ {
   },
   {
     "Species": "Blue Tit",
-    "ScientificName": "Cyanistes caeruleus"
+    "ScientificName": "Cyanistes caeruleus",
+      "level": 1
   },
   {
     "Species": "Great Tit",
-    "ScientificName": "Parus major"
+    "ScientificName": "Parus major",
+      "level": 1
   },
   {
     "Species": "Penduline Tit",
@@ -932,7 +935,8 @@ module.exports = [ {
   },
   {
     "Species": "Skylark",
-    "ScientificName": "Alauda arvensis"
+    "ScientificName": "Alauda arvensis",
+      "level": 1
   },
   {
     "Species": "Shore Lark",
@@ -944,7 +948,8 @@ module.exports = [ {
   },
   {
     "Species": "Swallow",
-    "ScientificName": "Hirundo rustica"
+    "ScientificName": "Hirundo rustica",
+      "level": 1
   },
   {
     "Species": "House Martin",
@@ -952,19 +957,23 @@ module.exports = [ {
   },
   {
     "Species": "Cetti's Warbler",
-    "ScientificName": "Cettia cetti"
+    "ScientificName": "Cettia cetti",
+      "level": 2
   },
   {
     "Species": "Long-tailed Tit",
-    "ScientificName": "Aegithalos caudatus"
+    "ScientificName": "Aegithalos caudatus",
+      "level" : 1
   },
   {
     "Species": "Willow Warbler",
-    "ScientificName": "Phylloscopus trochilus"
+    "ScientificName": "Phylloscopus trochilus",
+      "level": 1
   },
   {
     "Species": "Chiffchaff",
-    "ScientificName": "Phylloscopus collybita"
+    "ScientificName": "Phylloscopus collybita",
+      "level": 1
   },
   {
     "Species": "Wood Warbler",
@@ -988,11 +997,13 @@ module.exports = [ {
   },
   {
     "Species": "Sedge Warbler",
-    "ScientificName": "Acrocephalus schoenobaenus"
+    "ScientificName": "Acrocephalus schoenobaenus",
+      "level": 2
   },
   {
     "Species": "Reed Warbler",
-    "ScientificName": "Acrocephalus scirpaceus"
+    "ScientificName": "Acrocephalus scirpaceus",
+      "level" : 2
   },
   {
     "Species": "Eastern Olivaceous Warbler",
@@ -1004,7 +1015,8 @@ module.exports = [ {
   },
   {
     "Species": "Grasshopper Warbler",
-    "ScientificName": "Locustella naevia"
+    "ScientificName": "Locustella naevia",
+      "level" : 1
   },
   {
     "Species": "Savi's Warbler",
@@ -1012,7 +1024,8 @@ module.exports = [ {
   },
   {
     "Species": "Blackcap",
-    "ScientificName": "Sylvia atricapilla"
+    "ScientificName": "Sylvia atricapilla",
+      "level" : 1
   },
   {
     "Species": "Garden Warbler",
@@ -1024,11 +1037,13 @@ module.exports = [ {
   },
   {
     "Species": "Lesser Whitethroat",
-    "ScientificName": "Sylvia curruca"
+    "ScientificName": "Sylvia curruca",
+      "level" : 2
   },
   {
     "Species": "Whitethroat",
-    "ScientificName": "Sylvia communis"
+    "ScientificName": "Sylvia communis",
+      "level" : 2
   },
   {
     "Species": "Dartford Warbler",
@@ -1040,19 +1055,23 @@ module.exports = [ {
   },
   {
     "Species": "Goldcrest",
-    "ScientificName": "Regulus regulus"
+    "ScientificName": "Regulus regulus",
+      "level" : 1
   },
   {
     "Species": "Wren",
-    "ScientificName": "Troglodytes troglodytes"
+    "ScientificName": "Troglodytes troglodytes",
+      "level": 1
   },
   {
     "Species": "Nuthatch",
-    "ScientificName": "Sitta europaea"
+    "ScientificName": "Sitta europaea",
+      "level" : 1
   },
   {
     "Species": "Treecreeper",
-    "ScientificName": "Certhia familiaris"
+    "ScientificName": "Certhia familiaris",
+      "level" : 2
   },
   {
     "Species": "Rose-coloured Starling",
@@ -1060,7 +1079,8 @@ module.exports = [ {
   },
   {
     "Species": "Starling",
-    "ScientificName": "Sturnus vulgaris"
+    "ScientificName": "Sturnus vulgaris",
+      "level" : 1
   },
   {
     "Species": "Ring Ouzel",
@@ -1068,7 +1088,8 @@ module.exports = [ {
   },
   {
     "Species": "Blackbird",
-    "ScientificName": "Turdus merula"
+    "ScientificName": "Turdus merula",
+      "level" : 1
   },
   {
     "Species": "Dusky Thrush",
@@ -1084,11 +1105,13 @@ module.exports = [ {
   },
   {
     "Species": "Song Thrush",
-    "ScientificName": "Turdus philomelos"
+    "ScientificName": "Turdus philomelos",
+      "level": 1
   },
   {
     "Species": "Mistle Thrush",
-    "ScientificName": "Turdus viscivorus"
+    "ScientificName": "Turdus viscivorus",
+      "level" : 1
   },
   {
     "Species": "American Robin",
@@ -1100,7 +1123,8 @@ module.exports = [ {
   },
   {
     "Species": "Robin",
-    "ScientificName": "Erithacus rubecula"
+    "ScientificName": "Erithacus rubecula",
+      "level": 1
   },
   {
     "Species": "Thrush Nightingale",
@@ -1156,7 +1180,8 @@ module.exports = [ {
   },
   {
     "Species": "Dunnock",
-    "ScientificName": "Prunella modularis"
+    "ScientificName": "Prunella modularis",
+      "level" : 1
   },
   {
     "Species": "Yellow Wagtail",
@@ -1188,7 +1213,8 @@ module.exports = [ {
   },
   {
     "Species": "Chaffinch",
-    "ScientificName": "Fringilla coelebs"
+    "ScientificName": "Fringilla coelebs",
+      "level" : 1
   },
   {
     "Species": "Brambling",
