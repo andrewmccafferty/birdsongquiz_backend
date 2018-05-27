@@ -1,6 +1,7 @@
 const express = require('express');
 const speciesService = require('./service/species');
 const recordingsService = require('./service/recordings');
+const quizService = require('./service/quiz');
 const app = express();
 const port = process.env.PORT || 5000;
 
@@ -19,13 +20,7 @@ app.get('/api/species', (req, res) => {
 
 app.get('/api/birdsong', (req, res) => {
     let level = req.query.level;
-    let species = speciesService.selectRandomSpecies(level);
-    if (!species) {
-        res.send({ noRecordingFound: true});
-        return;
-    }
-
-    recordingsService.getRandomRecording(species).then((result) => {
+    quizService.getChallenge(level).then((result) => {
         res.send(result);
     });
 });
