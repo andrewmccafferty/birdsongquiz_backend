@@ -1,6 +1,4 @@
 const express = require('express');
-const speciesService = require('./service/species');
-const recordingsService = require('./service/recordings');
 const quizService = require('./service/quiz');
 const app = express();
 const port = process.env.PORT || 5000;
