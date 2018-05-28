@@ -4,11 +4,11 @@ const recordingsService = require('./recordings');
 const getChallenge = (level) => {
     let species = speciesService.selectRandomSpecies(level);
     if (!species) {
-        return Promise.resolve({ noRecordingFound: true});
+        return Promise.resolve({ noSpeciesFound: true});
     }
 
     return recordingsService.getRandomRecording(species).then((result) => {
-        return Promise.resolve(result);
+        return Promise.resolve(result ? {recording: result} : {noRecordings: true});
     });
 }
 

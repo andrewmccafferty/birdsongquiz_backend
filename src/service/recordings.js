@@ -14,15 +14,7 @@ const getRandomRecording = (species) => {
             };
         }
 
-        let randomRecording = arrayHelpers.getRandomArrayElement(recordings);
-        if (!randomRecording) {
-            return {
-                noRecordings: true
-            };
-        }
-        return {
-            recording: randomRecording
-        };
+        return arrayHelpers.getRandomArrayElement(recordings);
     });
 };
 
