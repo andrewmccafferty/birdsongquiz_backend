@@ -18,11 +18,9 @@ const selectRandomSpecies = (level) => {
 };
 
 const getMultipleChoiceOptions = (givenSpecies, numberOfOptions = 4) => {
-    const primaryGroup = givenSpecies.PrimaryGroup
     const level = givenSpecies.Level
-    const groups = givenSpecies.Groups
-    const primaryGroupMatch = findSpeciesWithMatchingPrimaryGroupAndLevel(primaryGroup, level)
-    const groupMatch = findSpeciesWithMatchingGroupAndLevel(groups, level)
+    const primaryGroupMatch = findSpeciesWithMatchingPrimaryGroupAndLevel(givenSpecies, level)
+    const groupMatch = findSpeciesWithMatchingGroupAndLevel(givenSpecies, level)
     const options = [givenSpecies]
     let numberNeeded = numberOfOptions - 1
     if (primaryGroupMatch) {
@@ -33,37 +31,40 @@ const getMultipleChoiceOptions = (givenSpecies, numberOfOptions = 4) => {
         options.push(groupMatch)
         numberNeeded--
     }
-    findRandomMatchesForLevel(level, numberNeeded).map(option => options.push(option))
+    findRandomMatchesForLevel(level, numberNeeded, options).map(option => options.push(option))
     return options
 }
 
-const findRandomMatchesForLevel = (level, numberNeeded) => {
-    return _.times(numberNeeded, () => arrayHelpers.getRandomArrayElement(filterSameLevelMatches(level, speciesList)))
+const findRandomMatchesForLevel = (level, numberNeeded, exclusions) => {
+    return _.times(numberNeeded, () => {
+        const selectedSpecies = arrayHelpers.getRandomArrayElement(filterSameLevelMatches(level, speciesList, exclusions))
+        return selectedSpecies
+    })
 }
 
-const filterSameLevelMatches = (level, matches) => {
-    console.log('matches were', matches)
-    const result = level ? matches.filter(species => species.Level === level) : matches
-    console.log('same level matches', result)
+const filterSameLevelMatches = (level, matches, exclusions) => {
+    const speciesExcluded = species => exclusions.some(excludedSpecies => excludedSpecies.ScientificName.toUpperCase() === species.ScientificName.toUpperCase())
+    const result = level ? matches.filter(species => species.Level === level && !speciesExcluded(species)) : matches
     return result
 }
 
-const findSpeciesWithMatchingPrimaryGroupAndLevel = (primaryGroup, level) => {
-    if (!primaryGroup) {
+const findSpeciesWithMatchingPrimaryGroupAndLevel = (givenSpecies, level) => {
+    if (!givenSpecies.primaryGroup) {
         return null
     }
-    const samePrimaryGroupMatches = speciesList.filter(species => species.PrimaryGroup === primaryGroup)
+    const samePrimaryGroupMatches = speciesList.filter(species => species.PrimaryGroup === givenSpecies.primaryGroup && species != givenSpecies)
     if (!samePrimaryGroupMatches) {
         return null
     }
     return arrayHelpers.getRandomArrayElement(filterSameLevelMatches(level, samePrimaryGroupMatches))
 }
 
-const findSpeciesWithMatchingGroupAndLevel = (groups, level) => {
+const findSpeciesWithMatchingGroupAndLevel = (givenSpecies, level) => {
+    const groups = givenSpecies.groups
     if (!groups || groups.length === 0) {
         return null
     }
-    const sameGroupMatches = speciesList.filter(species => groups.includes(species.groups))
+    const sameGroupMatches = speciesList.filter(species => groups.includes(species.groups) && species != givenSpecies)
     if (!sameGroupMatches) {
         return null
     }
