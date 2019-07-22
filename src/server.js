@@ -19,14 +19,17 @@ app.get('/api/species', (req, res) => {
 
 app.get('/api/birdsong', (req, res) => {
     let level = req.query.level;
-    let species = speciesService.selectRandomSpecies(level);
-    if (!species) {
+    let speciesResult = speciesService.selectRandomSpecies(level);
+    if (!speciesResult) {
         res.send({ noRecordingFound: true});
         return;
     }
 
-    recordingsService.getRandomRecording(species).then((result) => {
-        res.send(result);
+    recordingsService.getRandomRecording(speciesResult.selectedSpecies).then((result) => {
+        res.send({
+            "multipleChoiceOptions": speciesResult.multipleChoiceOptions,
+            "recordingResult": result
+        });
     });
 });
 
