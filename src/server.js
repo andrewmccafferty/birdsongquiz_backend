@@ -18,7 +18,7 @@ app.get('/api/species', (req, res) => {
 });
 
 app.get('/api/birdsong', (req, res) => {
-    let level = req.query.level;
+    let level = parseInt(req.query.level);
     let speciesResult = speciesService.selectRandomSpecies(level);
     if (!speciesResult) {
         res.send({ noRecordingFound: true});

@@ -14,8 +14,9 @@ module.exports = [
     {
         "Species": "Canada Goose",
         "ScientificName": "Branta canadensis",
-        "Level": 2,
-        "Habitat": "marshland"
+        "Level": 1,
+        "Habitat": "marshland",
+        "primaryGroup": "geese"
     },
     {
         "Species": "Barnacle Goose",
@@ -741,7 +742,8 @@ module.exports = [
     {
         "Species": "Woodpigeon",
         "ScientificName": "Columba palumbus",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "pigeons"
     },
     {
         "Species": "Turtle Dove",
@@ -750,7 +752,8 @@ module.exports = [
     {
         "Species": "Collared Dove",
         "ScientificName": "Streptopelia decaocto",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "pigeons"
     },
     {
         "Species": "Cuckoo",
@@ -784,7 +787,8 @@ module.exports = [
     {
         "Species": "Swift",
         "ScientificName": "Apus apus",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "swallowish"
     },
     {
         "Species": "Kingfisher",
@@ -857,34 +861,37 @@ module.exports = [
     {
         "Species": "Magpie",
         "ScientificName": "Pica pica",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "crows"
     },
     {
         "Species": "Chough",
-        "ScientificName": "Pyrrhocorax pyrrhocorax"
+        "ScientificName": "Pyrrhocorax pyrrhocorax",
+        "primaryGroup": "crows"
     },
     {
         "Species": "Jackdaw",
-        "ScientificName": "Coloeus monedula"
+        "ScientificName": "Coloeus monedula",
+        "Level": 1,
+        "primaryGroup": "crows"
     },
     {
         "Species": "Rook",
         "ScientificName": "Corvus frugilegus",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "crows"
     },
     {
         "Species": "Carrion Crow",
         "ScientificName": "Corvus corone",
-        "Level": 1
-    },
-    {
-        "Species": "Hooded Crow",
-        "ScientificName": "Corvus cornix"
+        "Level": 1,
+        "primaryGroup": "crows"
     },
     {
         "Species": "Raven",
         "ScientificName": "Corvus corax",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "crows"
     },
     {
         "Species": "Waxwing",
@@ -893,29 +900,35 @@ module.exports = [
     {
         "Species": "Coal Tit",
         "ScientificName": "Periparus ater",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "tits"
     },
     {
         "Species": "Crested Tit",
-        "ScientificName": "Lophophanes cristatus"
+        "ScientificName": "Lophophanes cristatus",
+        "primaryGroup": "tits"
     },
     {
         "Species": "Marsh Tit",
-        "ScientificName": "Poecile palustris"
+        "ScientificName": "Poecile palustris",
+        "primaryGroup": "tits"
     },
     {
         "Species": "Willow Tit",
-        "ScientificName": "Poecile montanus"
+        "ScientificName": "Poecile montanus",
+        "primaryGroup": "tits"
     },
     {
         "Species": "Blue Tit",
         "ScientificName": "Cyanistes caeruleus",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "tits"
     },
     {
         "Species": "Great Tit",
         "ScientificName": "Parus major",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "tits"
     },
     {
         "Species": "Penduline Tit",
@@ -932,7 +945,8 @@ module.exports = [
     {
         "Species": "Skylark",
         "ScientificName": "Alauda arvensis",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "farmland"
     },
     {
         "Species": "Shore Lark",
@@ -941,17 +955,20 @@ module.exports = [
     {
         "Species": "Sand Martin",
         "ScientificName": "Riparia riparia",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "swallowish"
     },
     {
         "Species": "Swallow",
         "ScientificName": "Hirundo rustica",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "swallowish"
     },
     {
         "Species": "House Martin",
         "ScientificName": "Delichon urbicum",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "swallowish"
     },
     {
         "Species": "Cetti's Warbler",
@@ -959,21 +976,25 @@ module.exports = [
     },
     {
         "Species": "Long-tailed Tit",
-        "ScientificName": "Aegithalos caudatus"
+        "ScientificName": "Aegithalos caudatus",
+        "primaryGroup": "tits"
     },
     {
         "Species": "Willow Warbler",
         "ScientificName": "Phylloscopus trochilus",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "woodland_warblers"
     },
     {
         "Species": "Chiffchaff",
         "ScientificName": "Phylloscopus collybita",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "woodland_warblers"
     },
     {
         "Species": "Wood Warbler",
-        "ScientificName": "Phylloscopus sibilatrix"
+        "ScientificName": "Phylloscopus sibilatrix",
+        "primaryGroup": "woodland_warblers"
     },
     {
         "Species": "Pallas's Warbler",
@@ -989,17 +1010,20 @@ module.exports = [
     },
     {
         "Species": "Great Reed Warbler",
-        "ScientificName": "Acrocephalus arundinaceus"
+        "ScientificName": "Acrocephalus arundinaceus",
+        "primaryGroup": "marshland_warblers"
     },
     {
         "Species": "Sedge Warbler",
         "ScientificName": "Acrocephalus schoenobaenus",
-        "Level": 2
+        "Level": 2,
+        "primaryGroup": "marshland_warblers"
     },
     {
         "Species": "Reed Warbler",
         "ScientificName": "Acrocephalus scirpaceus",
-        "Level": 2
+        "Level": 2,
+        "primaryGroup": "marshland_warblers"
     },
     {
         "Species": "Eastern Olivaceous Warbler",
@@ -1015,16 +1039,19 @@ module.exports = [
     },
     {
         "Species": "Savi's Warbler",
-        "ScientificName": "Locustella luscinioides"
+        "ScientificName": "Locustella luscinioides",
+        "primaryGroup": "marshland_warblers"
     },
     {
         "Species": "Blackcap",
         "ScientificName": "Sylvia atricapilla",
-        "Level": 2
+        "Level": 1,
+        "primaryGroup": "woodland_warblers"
     },
     {
         "Species": "Garden Warbler",
-        "ScientificName": "Sylvia borin"
+        "ScientificName": "Sylvia borin",
+        "primaryGroup": "woodland_warblers"
     },
     {
         "Species": "Barred Warbler",
@@ -1032,11 +1059,15 @@ module.exports = [
     },
     {
         "Species": "Lesser Whitethroat",
-        "ScientificName": "Sylvia curruca"
+        "ScientificName": "Sylvia curruca",
+        "Level": 1,
+        "primaryGroup": "farmland_warblers"
     },
     {
         "Species": "Whitethroat",
-        "ScientificName": "Sylvia communis"
+        "ScientificName": "Sylvia communis",
+        "Level": 1,
+        "primaryGroup": "farmland_warblers"
     },
     {
         "Species": "Dartford Warbler",
@@ -1054,7 +1085,8 @@ module.exports = [
     {
         "Species": "Wren",
         "ScientificName": "Troglodytes troglodytes",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "garden_regulars"
     },
     {
         "Species": "Nuthatch",
@@ -1071,7 +1103,8 @@ module.exports = [
     },
     {
         "Species": "Starling",
-        "ScientificName": "Sturnus vulgaris"
+        "ScientificName": "Sturnus vulgaris",
+        "primaryGroup": "garden_regulars"
     },
     {
         "Species": "Ring Ouzel",
@@ -1080,7 +1113,8 @@ module.exports = [
     {
         "Species": "Blackbird",
         "ScientificName": "Turdus merula",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "thrushes"
     },
     {
         "Species": "Dusky Thrush",
@@ -1088,21 +1122,25 @@ module.exports = [
     },
     {
         "Species": "Fieldfare",
-        "ScientificName": "Turdus pilaris"
+        "ScientificName": "Turdus pilaris",
+        "primaryGroup": "thrushes"
     },
     {
         "Species": "Redwing",
-        "ScientificName": "Turdus iliacus"
+        "ScientificName": "Turdus iliacus",
+        "primaryGroup": "thrushes"
     },
     {
         "Species": "Song Thrush",
         "ScientificName": "Turdus philomelos",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "thrushes"
     },
     {
         "Species": "Mistle Thrush",
         "ScientificName": "Turdus viscivorus",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "thrushes"
     },
     {
         "Species": "American Robin",
@@ -1115,7 +1153,8 @@ module.exports = [
     {
         "Species": "Robin",
         "ScientificName": "Erithacus rubecula",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "thrushes"
     },
     {
         "Species": "Thrush Nightingale",
@@ -1135,23 +1174,28 @@ module.exports = [
     },
     {
         "Species": "Black Redstart",
-        "ScientificName": "Phoenicurus ochruros"
+        "ScientificName": "Phoenicurus ochruros",
+        "primaryGroup": "chats"
     },
     {
         "Species": "Redstart",
-        "ScientificName": "Phoenicurus phoenicurus"
+        "ScientificName": "Phoenicurus phoenicurus",
+        "primaryGroup": "chats"
     },
     {
         "Species": "Whinchat",
-        "ScientificName": "Saxicola rubetra"
+        "ScientificName": "Saxicola rubetra",
+        "primaryGroup": "chats"
     },
     {
         "Species": "Stonechat",
-        "ScientificName": "Saxicola rubicola"
+        "ScientificName": "Saxicola rubicola",
+        "primaryGroup": "chats"
     },
     {
         "Species": "Wheatear",
-        "ScientificName": "Oenanthe oenanthe"
+        "ScientificName": "Oenanthe oenanthe",
+        "primaryGroup": "chats"
     },
     {
         "Species": "Dipper",
@@ -1160,7 +1204,8 @@ module.exports = [
     {
         "Species": "House Sparrow",
         "ScientificName": "Passer domesticus",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "garden_regulars"
     },
     {
         "Species": "Spanish Sparrow",
@@ -1173,7 +1218,8 @@ module.exports = [
     {
         "Species": "Dunnock",
         "ScientificName": "Prunella modularis",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "garden_regulars"
     },
     {
         "Species": "Yellow Wagtail",
@@ -1181,11 +1227,15 @@ module.exports = [
     },
     {
         "Species": "Grey Wagtail",
-        "ScientificName": "Motacilla cinerea"
+        "ScientificName": "Motacilla cinerea",
+        "Level": 2,
+        "primaryGroup": "wagtails"
     },
     {
         "Species": "Pied Wagtail",
-        "ScientificName": "Motacilla alba"
+        "ScientificName": "Motacilla alba",
+        "Level": 1,
+        "primaryGroup": "wagtails"
     },
     {
         "Species": "Meadow Pipit",
@@ -1227,16 +1277,20 @@ module.exports = [
     },
     {
         "Species": "Greenfinch",
-        "ScientificName": "Chloris chloris"
+        "ScientificName": "Chloris chloris",
+        "Level": 1,
+        "primaryGroup": "finches"
     },
     {
         "Species": "Twite",
-        "ScientificName": "Linaria flavirostris"
+        "ScientificName": "Linaria flavirostris",
+        "primaryGroup": "linaria"
     },
     {
         "Species": "Linnet",
         "ScientificName": "Linaria cannabina",
-        "Level": 2
+        "Level": 2,
+        "primaryGroup": "linaria"
     },
     {
         "Species": "Lesser Redpoll",
@@ -1253,7 +1307,8 @@ module.exports = [
     {
         "Species": "Goldfinch",
         "ScientificName": "Carduelis carduelis",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "finches"
     },
     {
         "Species": "Serin",
@@ -1270,7 +1325,9 @@ module.exports = [
     },
     {
         "Species": "Yellowhammer",
-        "ScientificName": "Emberiza citrinella"
+        "ScientificName": "Emberiza citrinella",
+        "Level": 1,
+        "primaryGroup": "buntings"
     },
     {
         "Species": "Ortolan Bunting",
@@ -1278,7 +1335,9 @@ module.exports = [
     },
     {
         "Species": "Reed Bunting",
-        "ScientificName": "Emberiza schoeniclus"
+        "ScientificName": "Emberiza schoeniclus",
+        "Level": 1,
+        "primaryGroup": "buntings"
     },
     {
         "Species": "White-throated Sparrow",
