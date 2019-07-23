@@ -32,7 +32,7 @@ const getMultipleChoiceOptions = (givenSpecies, numberOfOptions = 4) => {
         numberNeeded--
     }
     findRandomMatchesForLevel(level, numberNeeded, options).map(option => options.push(option))
-    return options
+    return _.shuffle(options)
 }
 
 const findRandomMatchesForLevel = (level, numberNeeded, exclusions) => {
