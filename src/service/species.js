@@ -43,7 +43,7 @@ const findRandomMatchesForLevel = (level, numberNeeded, exclusions) => {
 const speciesExcluded = (species, exclusions) => exclusions.some(excludedSpecies => excludedSpecies.ScientificName.toUpperCase() === species.ScientificName.toUpperCase())
 
 const filterSameLevelMatches = (level, matches, exclusions) => {
-    const result = level ? matches.filter(species => species.Level === level && !speciesExcluded(species, exclusions)) : matches
+    const result = level ? matches.filter(species => species.Level <= level && !speciesExcluded(species, exclusions)) : matches
     return result
 }
 
@@ -57,18 +57,6 @@ const findSpeciesWithMatchingPrimaryGroupAndLevel = (givenSpecies, level, exclus
         return null
     }
     return arrayHelpers.getRandomArrayElement(filterSameLevelMatches(level, samePrimaryGroupMatches, exclusions))
-}
-
-const findSpeciesWithMatchingGroupAndLevel = (givenSpecies, level, exclusions = []) => {
-    const groups = givenSpecies.groups
-    if (!groups || groups.length === 0) {
-        return null
-    }
-    const sameGroupMatches = speciesList.filter(species => groups.includes(species.groups) && !speciesExcluded(species, exclusions))
-    if (!sameGroupMatches) {
-        return null
-    }
-    return arrayHelpers.getRandomArrayElement(filterSameLevelMatches(level, sameGroupMatches, exclusions))
 }
 
 const listSpecies = () => {
