@@ -28,7 +28,11 @@ const getMultipleChoiceOptions = (level, givenSpecies, numberOfOptions = 4) => {
         }
     }
     _.times(numberOfOptions - 1, () => addPrimaryGroupMatch())
-    findRandomMatchesForLevel(level, numberNeeded, options).map(option => options.push(option))
+    findRandomMatchesForLevel(level, numberNeeded, options).forEach(option => {
+        if (option) {
+            options.push(option)
+        }
+    })
     return _.shuffle(options)
 }
 
@@ -36,7 +40,9 @@ const findRandomMatchesForLevel = (level, numberNeeded, exclusions) => {
     const allExclusions = [...exclusions]
     return _.times(numberNeeded, () => {
         const selectedSpecies = arrayHelpers.getRandomArrayElement(filterSameLevelMatches(level, speciesList, allExclusions))
-        allExclusions.push(selectedSpecies)
+        if (selectedSpecies) {
+            allExclusions.push(selectedSpecies)
+        }
         return selectedSpecies
     })
 }
