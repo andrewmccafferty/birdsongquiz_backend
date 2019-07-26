@@ -3,18 +3,19 @@ module.exports = [
         "Species": "Brent Goose",
         "ScientificName": "Branta bernicla",
         "Level": 3,
-        "Habitat": "estuary"
+        "primaryGroup": "geese"
     },
     {
         "Species": "Red-breasted Goose",
         "ScientificName": "Branta ruficollis",
         "Level": 5,
-        "Habitat": "estuary"
+        "Habitat": "estuary",
+        "primaryGroup": "geese"
     },
     {
         "Species": "Canada Goose",
         "ScientificName": "Branta canadensis",
-        "Level": 1,
+        "Level": 2,
         "Habitat": "marshland",
         "primaryGroup": "geese"
     },
@@ -22,722 +23,1015 @@ module.exports = [
         "Species": "Barnacle Goose",
         "ScientificName": "Branta leucopsis",
         "Level": 2,
-        "Habitat": "estuary"
+        "primaryGroup": "geese"
     },
     {
         "Species": "Snow Goose",
         "ScientificName": "Anser caerulescens",
         "Level": 5,
-        "Habitat": "estuary"
+        "primaryGroup": "geese"
     },
     {
         "Species": "Greylag Goose",
         "ScientificName": "Anser anser",
         "Level": 2,
-        "Habitat": "marshland"
+        "primaryGroup": "geese"
     },
     {
         "Species": "Pink-footed Goose",
         "ScientificName": "Anser brachyrhynchus",
         "Level": 2,
-        "Habitat": "estuary"
+        "primaryGroup": "geese"
     },
     {
         "Species": "White-fronted Goose",
         "ScientificName": "Anser albifrons",
         "Level": 5,
-        "Habitat": "estuary"
+        "primaryGroup": "geese"
     },
     {
         "Species": "Mute Swan",
         "ScientificName": "Cygnus olor",
         "Level": 2,
-        "Habitat": "marshland"
+        "primaryGroup": "swans"
     },
     {
         "Species": "Bewick's Swan",
         "ScientificName": "Cygnus columbianus",
-        "Level": 3
+        "Level": 3,
+        "primaryGroup": "swans"
     },
     {
         "Species": "Whooper Swan",
         "ScientificName": "Cygnus cygnus",
-        "Level": 3
+        "Level": 3,
+        "primaryGroup": "swans"
     },
     {
         "Species": "Egyptian Goose",
         "ScientificName": "Alopochen aegyptiaca",
-        "Level": 3
+        "Level": 3,
+        "primaryGroup": "geese"
     },
     {
         "Species": "Shelduck",
         "ScientificName": "Tadorna tadorna",
-        "Level": 2
+        "Level": 2,
+        "primaryGroup": "geese"
     },
     {
         "Species": "Garganey",
         "ScientificName": "Spatula querquedula",
-        "Level": 4
+        "Level": 4,
+        "primaryGroup": "ducks"
     },
     {
         "Species": "Shoveler",
         "ScientificName": "Spatula clypeata",
-        "Level": 3
+        "Level": 2,
+        "primaryGroup": "ducks"
     },
     {
         "Species": "Gadwall",
         "ScientificName": "Mareca strepera",
-        "Level": 3
+        "Level": 2,
+        "primaryGroup": "ducks"
     },
     {
         "Species": "Wigeon",
         "ScientificName": "Mareca penelope",
-        "Level": 2
+        "Level": 2,
+        "primaryGroup": "ducks"
     },
     {
         "Species": "Mallard",
         "ScientificName": "Anas platyrhynchos",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "ducks"
     },
     {
         "Species": "Pintail",
         "ScientificName": "Anas acuta",
-        "Level": 4
+        "Level": 3,
+        "primaryGroup": "ducks"
     },
     {
         "Species": "Teal",
         "ScientificName": "Anas crecca",
-        "Level": 2
+        "Level": 2,
+        "primaryGroup": "ducks"
     },
     {
         "Species": "Pochard",
         "ScientificName": "Aythya ferina",
-        "Level": 5
+        "Level": 3,
+        "primaryGroup": "ducks"
     },
     {
         "Species": "Tufted Duck",
         "ScientificName": "Aythya fuligula",
-        "Level": 4
+        "Level": 3,
+        "primaryGroup": "ducks"
     },
     {
         "Species": "Scaup",
         "ScientificName": "Aythya marila",
-        "Level": 5
+        "Level": 5,
+        "primaryGroup": "ducks"
     },
     {
         "Species": "Eider",
         "ScientificName": "Somateria mollissima",
-        "Level": 2
+        "Level": 2,
+        "primaryGroup": "ducks"
     },
     {
         "Species": "Velvet Scoter",
         "ScientificName": "Melanitta fusca",
-        "Level": 5
+        "Level": 5,
+        "primaryGroup": "ducks"
     },
     {
         "Species": "Common Scoter",
         "ScientificName": "Melanitta nigra",
-        "Level": 5
+        "Level": 5,
+        "primaryGroup": "ducks"
     },
     {
         "Species": "Long-tailed Duck",
         "ScientificName": "Clangula hyemalis",
-        "Level": 3
+        "Level": 3,
+        "primaryGroup": "ducks"
     },
     {
         "Species": "Goldeneye",
         "ScientificName": "Bucephala clangula",
-        "Level": 3
+        "Level": 3,
+        "primaryGroup": "ducks"
     },
     {
         "Species": "Smew",
         "ScientificName": "Mergellus albellus",
-        "Level": 5
+        "Level": 5,
+        "primaryGroup": "ducks"
     },
     {
         "Species": "Goosander",
         "ScientificName": "Mergus merganser",
-        "Level": 5
+        "Level": 5,
+        "primaryGroup": "ducks"
     },
     {
         "Species": "Red-breasted Merganser",
         "ScientificName": "Mergus serrator",
-        "Level": 5
+        "Level": 5,
+        "primaryGroup": "ducks"
     },
     {
         "Species": "Capercaillie",
-        "ScientificName": "Tetrao urogallus"
+        "ScientificName": "Tetrao urogallus",
+        "Level": 3,
+        "primaryGroup": "gamebirds"
     },
     {
         "Species": "Black Grouse",
-        "ScientificName": "Lyrurus tetrix"
+        "ScientificName": "Lyrurus tetrix",
+        "primaryGroup": "gamebirds",
+        "Level": 3
     },
     {
         "Species": "Ptarmigan",
-        "ScientificName": "Lagopus muta"
+        "ScientificName": "Lagopus muta",
+        "primaryGroup": "gamebirds",
+        "Level": 2
     },
     {
         "Species": "Red Grouse",
-        "ScientificName": "Lagopus lagopus"
+        "ScientificName": "Lagopus lagopus",
+        "primaryGroup": "gamebirds",
+        "Level": 2
     },
     {
         "Species": "Red-legged Partridge",
-        "ScientificName": "Alectoris rufa"
+        "ScientificName": "Alectoris rufa",
+        "primaryGroup": "gamebirds",
+        "Level": 4
     },
     {
         "Species": "Grey Partridge",
-        "ScientificName": "Perdix perdix"
+        "ScientificName": "Perdix perdix",
+        "primaryGroup": "gamebirds",
+        "Level": 4
     },
     {
         "Species": "Pheasant",
         "ScientificName": "Phasianus colchicus",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "gamebirds"
     },
     {
         "Species": "Red-throated Diver",
-        "ScientificName": "Gavia stellata"
+        "ScientificName": "Gavia stellata",
+        "primaryGroup": "divers",
+        "Level": 3
     },
     {
         "Species": "Black-throated Diver",
-        "ScientificName": "Gavia arctica"
+        "ScientificName": "Gavia arctica",
+        "primaryGroup": "divers",
+        "Level": 3
     },
     {
         "Species": "Great Northern Diver",
-        "ScientificName": "Gavia immer"
+        "ScientificName": "Gavia immer",
+        "primaryGroup": "divers",
+        "Level": 3
     },
     {
         "Species": "White-billed Diver",
-        "ScientificName": "Gavia adamsii"
+        "ScientificName": "Gavia adamsii",
+        "primaryGroup": "divers",
+        "Level": 5
     },
     {
         "Species": "Storm Petrel",
-        "ScientificName": "Hydrobates pelagicus"
+        "ScientificName": "Hydrobates pelagicus",
+        "primaryGroup": "tubenoses",
+        "Level": 4
     },
     {
         "Species": "Leach's Petrel",
-        "ScientificName": "Oceanodroma leucorhoa"
+        "ScientificName": "Oceanodroma leucorhoa",
+        "primaryGroup": "tubenoses",
+        "Level": 4
     },
     {
         "Species": "Fulmar",
-        "ScientificName": "Fulmarus glacialis"
+        "ScientificName": "Fulmarus glacialis",
+        "primaryGroup": "tubenoses",
+        "Level": 3
     },
     {
         "Species": "Sooty Shearwater",
-        "ScientificName": "Ardenna grisea"
+        "ScientificName": "Ardenna grisea",
+        "primaryGroup": "shearwaters",
+        "Level": 5
     },
     {
         "Species": "Manx Shearwater",
-        "ScientificName": "Puffinus puffinus"
+        "ScientificName": "Puffinus puffinus",
+        "primaryGroup": "shearwaters",
+        "Level": 3
     },
     {
         "Species": "Balearic Shearwater",
-        "ScientificName": "Puffinus mauretanicus"
+        "ScientificName": "Puffinus mauretanicus",
+        "primaryGroup": "shearwaters",
+        "Level": 5
     },
     {
         "Species": "Little Grebe",
-        "ScientificName": "Tachybaptus ruficollis"
+        "ScientificName": "Tachybaptus ruficollis",
+        "primaryGroup": "grebes",
+        "Level": 2
     },
     {
         "Species": "Pied-billed Grebe",
-        "ScientificName": "Podilymbus podiceps"
+        "ScientificName": "Podilymbus podiceps",
+        "primaryGroup": "grebes",
+        "Level": 5
     },
     {
         "Species": "Red-necked Grebe",
-        "ScientificName": "Podiceps grisegena"
+        "ScientificName": "Podiceps grisegena",
+        "primaryGroup": "grebes",
+        "Level": 5
     },
     {
         "Species": "Great Crested Grebe",
-        "ScientificName": "Podiceps cristatus"
+        "ScientificName": "Podiceps cristatus",
+        "primaryGroup": "grebes",
+        "Level": 3
     },
     {
         "Species": "Slavonian Grebe",
-        "ScientificName": "Podiceps auritus"
+        "ScientificName": "Podiceps auritus",
+        "primaryGroup": "grebes",
+        "Level": 5
     },
     {
         "Species": "Black-necked Grebe",
-        "ScientificName": "Podiceps nigricollis"
+        "ScientificName": "Podiceps nigricollis",
+        "primaryGroup": "grebes",
+        "Level": 5
     },
     {
         "Species": "Black Stork",
-        "ScientificName": "Ciconia nigra"
+        "ScientificName": "Ciconia nigra",
+        "primaryGroup": "storks-cranes-and-herons",
+        "Level": 5
     },
     {
         "Species": "Glossy Ibis",
-        "ScientificName": "Plegadis falcinellus"
+        "ScientificName": "Plegadis falcinellus",
+        "primaryGroup": "storks-cranes-and-herons",
+        "Level": 5
     },
     {
         "Species": "Spoonbill",
-        "ScientificName": "Platalea leucorodia"
+        "ScientificName": "Platalea leucorodia",
+        "primaryGroup": "storks-cranes-and-herons",
+        "Level": 5
     },
     {
         "Species": "Bittern",
-        "ScientificName": "Botaurus stellaris"
+        "ScientificName": "Botaurus stellaris",
+        "primaryGroup": "storks-cranes-and-herons",
+        "Level": 1
     },
     {
         "Species": "Little Bittern",
-        "ScientificName": "Ixobrychus minutus"
+        "ScientificName": "Ixobrychus minutus",
+        "primaryGroup": "storks-cranes-and-herons",
+        "Level": 5
     },
     {
         "Species": "Night-heron",
-        "ScientificName": "Nycticorax nycticorax"
+        "ScientificName": "Nycticorax nycticorax",
+        "primaryGroup": "storks-cranes-and-herons",
+        "Level": 5
     },
     {
         "Species": "Green Heron",
-        "ScientificName": "Butorides virescens"
+        "ScientificName": "Butorides virescens",
+        "primaryGroup": "storks-cranes-and-herons",
+        "Level": 5
     },
     {
         "Species": "Squacco Heron",
-        "ScientificName": "Ardeola ralloides"
+        "ScientificName": "Ardeola ralloides",
+        "primaryGroup": "storks-cranes-and-herons",
+        "Level": 5
     },
     {
         "Species": "Cattle Egret",
-        "ScientificName": "Bubulcus ibis"
+        "ScientificName": "Bubulcus ibis",
+        "primaryGroup": "storks-cranes-and-herons",
+        "Level": 5
     },
     {
         "Species": "Grey Heron",
         "ScientificName": "Ardea cinerea",
-        "Level": 2
+        "Level": 2,
+        "primaryGroup": "storks-cranes-and-herons"
     },
     {
         "Species": "Purple Heron",
-        "ScientificName": "Ardea purpurea"
+        "ScientificName": "Ardea purpurea",
+        "primaryGroup": "storks-cranes-and-herons",
+        "Level": 5
     },
     {
         "Species": "Great White Egret",
-        "ScientificName": "Ardea alba"
+        "ScientificName": "Ardea alba",
+        "primaryGroup": "storks-cranes-and-herons",
+        "Level": 5
     },
     {
         "Species": "Little Egret",
-        "ScientificName": "Egretta garzetta"
+        "ScientificName": "Egretta garzetta",
+        "primaryGroup": "storks-cranes-and-herons",
+        "Level": 4
     },
     {
         "Species": "Gannet",
-        "ScientificName": "Morus bassanus"
+        "ScientificName": "Morus bassanus",
+        "primaryGroup": "seabirds",
+        "Level": 3
     },
     {
         "Species": "Shag",
-        "ScientificName": "Phalacrocorax aristotelis"
+        "ScientificName": "Phalacrocorax aristotelis",
+        "primaryGroup": "seabirds",
+        "Level": 4
     },
     {
         "Species": "Cormorant",
-        "ScientificName": "Phalacrocorax carbo"
+        "ScientificName": "Phalacrocorax carbo",
+        "primaryGroup": "seabirds",
+        "Level": 3
     },
     {
         "Species": "Osprey",
-        "ScientificName": "Pandion haliaetus"
+        "ScientificName": "Pandion haliaetus",
+        "primaryGroup": "raptors",
+        "Level": 4
     },
     {
         "Species": "Honey-buzzard",
-        "ScientificName": "Pernis apivorus"
+        "ScientificName": "Pernis apivorus",
+        "primaryGroup": "raptors",
+        "Level": 5
     },
     {
         "Species": "Short-toed Eagle",
-        "ScientificName": "Circaetus gallicus"
+        "ScientificName": "Circaetus gallicus",
+        "primaryGroup": "raptors",
+        "Level": 5
     },
     {
         "Species": "Golden Eagle",
-        "ScientificName": "Aquila chrysaetos"
+        "ScientificName": "Aquila chrysaetos",
+        "primaryGroup": "raptors",
+        "Level": 5
     },
     {
         "Species": "Sparrowhawk",
-        "ScientificName": "Accipiter nisus"
+        "ScientificName": "Accipiter nisus",
+        "primaryGroup": "raptors",
+        "Level": 3
     },
     {
         "Species": "Goshawk",
-        "ScientificName": "Accipiter gentilis"
+        "ScientificName": "Accipiter gentilis",
+        "primaryGroup": "raptors",
+        "Level": 5
     },
     {
         "Species": "Marsh Harrier",
-        "ScientificName": "Circus aeruginosus"
+        "ScientificName": "Circus aeruginosus",
+        "primaryGroup": "raptors",
+        "Level": 5
     },
     {
         "Species": "Hen Harrier",
-        "ScientificName": "Circus cyaneus"
+        "ScientificName": "Circus cyaneus",
+        "primaryGroup": "raptors",
+        "Level": 5
     },
     {
         "Species": "Pallid Harrier",
-        "ScientificName": "Circus macrourus"
+        "ScientificName": "Circus macrourus",
+        "primaryGroup": "raptors",
+        "Level": 5
     },
     {
         "Species": "Montagu's Harrier",
-        "ScientificName": "Circus pygargus"
+        "ScientificName": "Circus pygargus",
+        "primaryGroup": "raptors",
+        "Level": 5
     },
     {
         "Species": "Red Kite",
-        "ScientificName": "Milvus milvus"
+        "ScientificName": "Milvus milvus",
+        "primaryGroup": "raptors",
+        "Level": 3
     },
     {
         "Species": "White-tailed Eagle",
-        "ScientificName": "Haliaeetus albicilla"
+        "ScientificName": "Haliaeetus albicilla",
+        "primaryGroup": "raptors",
+        "Level": 4
     },
     {
         "Species": "Rough-legged Buzzard",
-        "ScientificName": "Buteo lagopus"
+        "ScientificName": "Buteo lagopus",
+        "primaryGroup": "raptors",
+        "Level": 5
     },
     {
         "Species": "Buzzard",
-        "ScientificName": "Buteo buteo"
+        "ScientificName": "Buteo buteo",
+        "primaryGroup": "raptors",
+        "Level": 2
     },
     {
         "Species": "Water Rail",
-        "ScientificName": "Rallus aquaticus"
+        "ScientificName": "Rallus aquaticus",
+        "primaryGroup": "crakes-and-rails",
+        "Level": 2
     },
     {
         "Species": "Baillon's Crake",
-        "ScientificName": "Porzana pusilla"
+        "ScientificName": "Porzana pusilla",
+        "primaryGroup": "crakes-and-rails",
+        "Level": 5
     },
     {
         "Species": "Moorhen",
-        "ScientificName": "Gallinula chloropus"
+        "ScientificName": "Gallinula chloropus",
+        "primaryGroup": "crakes-and-rails",
+        "Level": 2
     },
     {
         "Species": "Coot",
         "ScientificName": "Fulica atra",
-        "Level": 2
+        "Level": 2,
+        "primaryGroup": "crakes-and-rails"
     },
     {
         "Species": "Sandhill Crane",
-        "ScientificName": "Antigone canadensis"
+        "ScientificName": "Antigone canadensis",
+        "primaryGroup": "storks-cranes-and-herons",
+        "Level": 5
     },
     {
         "Species": "Crane",
-        "ScientificName": "Grus grus"
+        "ScientificName": "Grus grus",
+        "primaryGroup": "storks-cranes-and-herons",
+        "Level": 3
     },
     {
         "Species": "Stone-curlew",
-        "ScientificName": "Burhinus oedicnemus"
+        "ScientificName": "Burhinus oedicnemus",
+        "primaryGroup": "waders",
+        "Level": 3
     },
     {
         "Species": "Oystercatcher",
         "ScientificName": "Haematopus ostralegus",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "waders"
     },
     {
         "Species": "Black-winged Stilt",
-        "ScientificName": "Himantopus himantopus"
+        "ScientificName": "Himantopus himantopus",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Avocet",
-        "ScientificName": "Recurvirostra avosetta"
+        "ScientificName": "Recurvirostra avosetta",
+        "primaryGroup": "waders",
+        "Level": 2
     },
     {
         "Species": "Lapwing",
         "ScientificName": "Vanellus vanellus",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "waders"
     },
     {
         "Species": "White-tailed Plover",
-        "ScientificName": "Vanellus leucurus"
+        "ScientificName": "Vanellus leucurus",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Golden Plover",
-        "ScientificName": "Pluvialis apricaria"
+        "ScientificName": "Pluvialis apricaria",
+        "primaryGroup": "waders",
+        "Level": 3
     },
     {
         "Species": "Grey Plover",
-        "ScientificName": "Pluvialis squatarola"
+        "ScientificName": "Pluvialis squatarola",
+        "primaryGroup": "waders",
+        "Level": 3
     },
     {
         "Species": "Ringed Plover",
-        "ScientificName": "Charadrius hiaticula"
+        "ScientificName": "Charadrius hiaticula",
+        "primaryGroup": "waders",
+        "Level": 3
     },
     {
         "Species": "Little Ringed Plover",
-        "ScientificName": "Charadrius dubius"
+        "ScientificName": "Charadrius dubius",
+        "primaryGroup": "waders",
+        "Level": 4
     },
     {
         "Species": "Kentish Plover",
-        "ScientificName": "Charadrius alexandrinus"
+        "ScientificName": "Charadrius alexandrinus",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Dotterel",
-        "ScientificName": "Charadrius morinellus"
+        "ScientificName": "Charadrius morinellus",
+        "primaryGroup": "waders",
+        "Level": 4
     },
     {
         "Species": "Whimbrel",
-        "ScientificName": "Numenius phaeopus"
+        "ScientificName": "Numenius phaeopus",
+        "primaryGroup": "waders",
+        "Level": 3
     },
     {
         "Species": "Curlew",
         "ScientificName": "Numenius arquata",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "waders"
     },
     {
         "Species": "Bar-tailed Godwit",
-        "ScientificName": "Limosa lapponica"
+        "ScientificName": "Limosa lapponica",
+        "primaryGroup": "waders",
+        "Level": 4
     },
     {
         "Species": "Black-tailed Godwit",
-        "ScientificName": "Limosa limosa"
+        "ScientificName": "Limosa limosa",
+        "primaryGroup": "waders",
+        "Level": 3
     },
     {
         "Species": "Turnstone",
-        "ScientificName": "Arenaria interpres"
+        "ScientificName": "Arenaria interpres",
+        "primaryGroup": "waders",
+        "Level": 3
     },
     {
         "Species": "Knot",
-        "ScientificName": "Calidris canutus"
+        "ScientificName": "Calidris canutus",
+        "primaryGroup": "waders",
+        "Level": 4
     },
     {
         "Species": "Ruff",
-        "ScientificName": "Calidris pugnax"
+        "ScientificName": "Calidris pugnax",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Sharp-tailed Sandpiper",
-        "ScientificName": "Calidris acuminata"
+        "ScientificName": "Calidris acuminata",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Stilt Sandpiper",
-        "ScientificName": "Calidris himantopus"
+        "ScientificName": "Calidris himantopus",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Curlew Sandpiper",
-        "ScientificName": "Calidris ferruginea"
+        "ScientificName": "Calidris ferruginea",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Temminck's Stint",
-        "ScientificName": "Calidris temminckii"
+        "ScientificName": "Calidris temminckii",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Sanderling",
-        "ScientificName": "Calidris alba"
+        "ScientificName": "Calidris alba",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Dunlin",
-        "ScientificName": "Calidris alpina"
+        "ScientificName": "Calidris alpina",
+        "primaryGroup": "waders",
+        "Level": 3
     },
     {
         "Species": "Purple Sandpiper",
-        "ScientificName": "Calidris maritima"
+        "ScientificName": "Calidris maritima",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Baird's Sandpiper",
-        "ScientificName": "Calidris bairdii"
+        "ScientificName": "Calidris bairdii",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Little Stint",
-        "ScientificName": "Calidris minuta"
+        "ScientificName": "Calidris minuta",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "White-rumped Sandpiper",
-        "ScientificName": "Calidris fuscicollis"
+        "ScientificName": "Calidris fuscicollis",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Pectoral Sandpiper",
-        "ScientificName": "Calidris melanotos"
+        "ScientificName": "Calidris melanotos",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Long-billed Dowitcher",
-        "ScientificName": "Limnodromus scolopaceus"
+        "ScientificName": "Limnodromus scolopaceus",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Short-billed Dowitcher",
-        "ScientificName": "Limnodromus griseus"
+        "ScientificName": "Limnodromus griseus",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Woodcock",
-        "ScientificName": "Scolopax rusticola"
+        "ScientificName": "Scolopax rusticola",
+        "primaryGroup": "waders",
+        "Level": 2
     },
     {
         "Species": "Jack Snipe",
-        "ScientificName": "Lymnocryptes minimus"
+        "ScientificName": "Lymnocryptes minimus",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Snipe",
-        "ScientificName": "Gallinago gallinago"
+        "ScientificName": "Gallinago gallinago",
+        "primaryGroup": "waders",
+        "Level": 2
     },
     {
         "Species": "Red-necked Phalarope",
-        "ScientificName": "Phalaropus lobatus"
+        "ScientificName": "Phalaropus lobatus",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Grey Phalarope",
-        "ScientificName": "Phalaropus fulicarius"
+        "ScientificName": "Phalaropus fulicarius",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Common Sandpiper",
-        "ScientificName": "Actitis hypoleucos"
+        "ScientificName": "Actitis hypoleucos",
+        "primaryGroup": "waders",
+        "Level": 2
     },
     {
         "Species": "Spotted Sandpiper",
-        "ScientificName": "Actitis macularius"
+        "ScientificName": "Actitis macularius",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Green Sandpiper",
-        "ScientificName": "Tringa ochropus"
+        "ScientificName": "Tringa ochropus",
+        "primaryGroup": "waders",
+        "Level": 3
     },
     {
         "Species": "Solitary Sandpiper",
-        "ScientificName": "Tringa solitaria"
+        "ScientificName": "Tringa solitaria",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Lesser Yellowlegs",
-        "ScientificName": "Tringa flavipes"
+        "ScientificName": "Tringa flavipes",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Redshank",
-        "ScientificName": "Tringa totanus"
+        "ScientificName": "Tringa totanus",
+        "primaryGroup": "waders",
+        "Level": 2
     },
     {
         "Species": "Marsh Sandpiper",
-        "ScientificName": "Tringa stagnatilis"
+        "ScientificName": "Tringa stagnatilis",
+        "primaryGroup": "waders",
+        "Level": 5
     },
     {
         "Species": "Wood Sandpiper",
-        "ScientificName": "Tringa glareola"
+        "ScientificName": "Tringa glareola",
+        "primaryGroup": "waders",
+        "Level": 4
     },
     {
         "Species": "Spotted Redshank",
-        "ScientificName": "Tringa erythropus"
+        "ScientificName": "Tringa erythropus",
+        "primaryGroup": "waders",
+        "Level": 3
     },
     {
         "Species": "Greenshank",
-        "ScientificName": "Tringa nebularia"
+        "ScientificName": "Tringa nebularia",
+        "primaryGroup": "waders",
+        "Level": 2
     },
     {
         "Species": "Kittiwake",
         "ScientificName": "Rissa tridactyla",
-        "Level": 2
+        "Level": 2,
+        "primaryGroup": "seabirds"
     },
     {
         "Species": "Sabine's Gull",
-        "ScientificName": "Xema sabini"
+        "ScientificName": "Xema sabini",
+        "primaryGroup": "gulls",
+        "Level": 5
     },
     {
         "Species": "Bonaparte's Gull",
-        "ScientificName": "Chroicocephalus philadelphia"
+        "ScientificName": "Chroicocephalus philadelphia",
+        "primaryGroup": "gulls",
+        "Level": 5
     },
     {
         "Species": "Black-headed Gull",
-        "ScientificName": "Chroicocephalus ridibundus"
+        "ScientificName": "Chroicocephalus ridibundus",
+        "primaryGroup": "gulls",
+        "Level": 2
     },
     {
         "Species": "Little Gull",
-        "ScientificName": "Hydrocoloeus minutus"
+        "ScientificName": "Hydrocoloeus minutus",
+        "primaryGroup": "gulls",
+        "Level": 4
     },
     {
         "Species": "Ross's Gull",
-        "ScientificName": "Rhodostethia rosea"
+        "ScientificName": "Rhodostethia rosea",
+        "primaryGroup": "gulls",
+        "Level": 5
     },
     {
         "Species": "Laughing Gull",
-        "ScientificName": "Leucophaeus atricilla"
+        "ScientificName": "Leucophaeus atricilla",
+        "primaryGroup": "gulls",
+        "Level": 5
     },
     {
         "Species": "Mediterranean Gull",
-        "ScientificName": "Ichthyaetus melanocephalus"
+        "ScientificName": "Ichthyaetus melanocephalus",
+        "primaryGroup": "gulls",
+        "Level": 3
     },
     {
         "Species": "Common Gull",
-        "ScientificName": "Larus canus"
+        "ScientificName": "Larus canus",
+        "primaryGroup": "gulls",
+        "Level": 2
     },
     {
         "Species": "Ring-billed Gull",
-        "ScientificName": "Larus delawarensis"
+        "ScientificName": "Larus delawarensis",
+        "primaryGroup": "gulls",
+        "Level": 5
     },
     {
         "Species": "Great Black-backed Gull",
-        "ScientificName": "Larus marinus"
+        "ScientificName": "Larus marinus",
+        "primaryGroup": "gulls",
+        "Level": 3
     },
     {
         "Species": "Glaucous Gull",
-        "ScientificName": "Larus hyperboreus"
+        "ScientificName": "Larus hyperboreus",
+        "primaryGroup": "gulls",
+        "Level": 5
     },
     {
         "Species": "Iceland Gull",
-        "ScientificName": "Larus glaucoides"
+        "ScientificName": "Larus glaucoides",
+        "primaryGroup": "gulls",
+        "Level": 5
     },
     {
         "Species": "Herring Gull",
-        "ScientificName": "Larus argentatus"
+        "ScientificName": "Larus argentatus",
+        "primaryGroup": "gulls",
+        "Level": 1
     },
     {
         "Species": "Yellow-legged Gull",
-        "ScientificName": "Larus michahellis"
+        "ScientificName": "Larus michahellis",
+        "primaryGroup": "gulls",
+        "Level": 5
     },
     {
         "Species": "Lesser Black-backed Gull",
-        "ScientificName": "Larus fuscus"
+        "ScientificName": "Larus fuscus",
+        "primaryGroup": "gulls",
+        "Level": 4
     },
     {
         "Species": "Caspian Tern",
-        "ScientificName": "Hydroprogne caspia"
+        "ScientificName": "Hydroprogne caspia",
+        "primaryGroup": "terns",
+        "Level": 5
     },
     {
         "Species": "Sandwich Tern",
-        "ScientificName": "Thalasseus sandvicensis"
+        "ScientificName": "Thalasseus sandvicensis",
+        "primaryGroup": "terns",
+        "Level": 3
     },
     {
         "Species": "Elegant Tern",
-        "ScientificName": "Thalasseus elegans"
+        "ScientificName": "Thalasseus elegans",
+        "primaryGroup": "terns",
+        "Level": 5
     },
     {
         "Species": "Little Tern",
-        "ScientificName": "Sternula albifrons"
+        "ScientificName": "Sternula albifrons",
+        "primaryGroup": "terns",
+        "Level": 3
     },
     {
         "Species": "Sooty Tern",
-        "ScientificName": "Onychoprion fuscatus"
+        "ScientificName": "Onychoprion fuscatus",
+        "primaryGroup": "terns",
+        "Level": 5
     },
     {
         "Species": "Common Tern",
-        "ScientificName": "Sterna hirundo"
+        "ScientificName": "Sterna hirundo",
+        "primaryGroup": "terns",
+        "Level": 1
     },
     {
         "Species": "Arctic Tern",
-        "ScientificName": "Sterna paradisaea"
+        "ScientificName": "Sterna paradisaea",
+        "primaryGroup": "terns",
+        "Level": 2
     },
     {
         "Species": "Whiskered Tern",
-        "ScientificName": "Chlidonias hybrida"
+        "ScientificName": "Chlidonias hybrida",
+        "primaryGroup": "terns",
+        "Level": 5
     },
     {
         "Species": "White-winged Black Tern",
-        "ScientificName": "Chlidonias leucopterus"
+        "ScientificName": "Chlidonias leucopterus",
+        "primaryGroup": "terns",
+        "Level": 5
     },
     {
         "Species": "Black Tern",
-        "ScientificName": "Chlidonias niger"
+        "ScientificName": "Chlidonias niger",
+        "primaryGroup": "terns",
+        "Level": 5
     },
     {
         "Species": "Great Skua",
-        "ScientificName": "Stercorarius skua"
+        "ScientificName": "Stercorarius skua",
+        "primaryGroup": "skuas",
+        "Level": 4
     },
     {
         "Species": "Pomarine Skua",
-        "ScientificName": "Stercorarius pomarinus"
+        "ScientificName": "Stercorarius pomarinus",
+        "primaryGroup": "skuas",
+        "Level": 5
     },
     {
         "Species": "Arctic Skua",
-        "ScientificName": "Stercorarius parasiticus"
+        "ScientificName": "Stercorarius parasiticus",
+        "primaryGroup": "skuas",
+        "Level": 4
     },
     {
         "Species": "Little Auk",
-        "ScientificName": "Alle alle"
+        "ScientificName": "Alle alle",
+        "primaryGroup": "auks",
+        "Level": 5
     },
     {
         "Species": "Common Guillemot",
-        "ScientificName": "Uria aalge"
+        "ScientificName": "Uria aalge",
+        "primaryGroup": "auks",
+        "Level": 3
     },
     {
         "Species": "Razorbill",
-        "ScientificName": "Alca torda"
+        "ScientificName": "Alca torda",
+        "primaryGroup": "auks",
+        "Level": 3
     },
     {
         "Species": "Black Guillemot",
-        "ScientificName": "Cepphus grylle"
+        "ScientificName": "Cepphus grylle",
+        "primaryGroup": "auks",
+        "Level": 3
     },
     {
         "Species": "Puffin",
-        "ScientificName": "Fratercula arctica"
-    },
-    {
-        "Species": "Rock Dove",
-        "ScientificName": "Columba livia"
+        "ScientificName": "Fratercula arctica",
+        "primaryGroup": "auks",
+        "Level": 3
     },
     {
         "Species": "Stock Dove",
-        "ScientificName": "Columba oenas"
+        "ScientificName": "Columba oenas",
+        "primaryGroup": "pigeons",
+        "Level": 3
     },
     {
         "Species": "Woodpigeon",
@@ -747,7 +1041,9 @@ module.exports = [
     },
     {
         "Species": "Turtle Dove",
-        "ScientificName": "Streptopelia turtur"
+        "ScientificName": "Streptopelia turtur",
+        "primaryGroup": "pigeons",
+        "Level": 2
     },
     {
         "Species": "Collared Dove",
@@ -757,32 +1053,43 @@ module.exports = [
     },
     {
         "Species": "Cuckoo",
-        "ScientificName": "Cuculus canorus"
+        "ScientificName": "Cuculus canorus",
+        "Level": 1
     },
     {
         "Species": "Barn Owl",
-        "ScientificName": "Tyto alba"
+        "ScientificName": "Tyto alba",
+        "primaryGroup": "owls",
+        "Level": 3
     },
     {
         "Species": "Tawny Owl",
         "ScientificName": "Strix aluco",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "owls"
     },
     {
         "Species": "Little Owl",
-        "ScientificName": "Athene noctua"
+        "ScientificName": "Athene noctua",
+        "primaryGroup": "owls",
+        "Level": 3
     },
     {
         "Species": "Long-eared Owl",
-        "ScientificName": "Asio otus"
+        "ScientificName": "Asio otus",
+        "primaryGroup": "owls",
+        "Level": 3
     },
     {
         "Species": "Short-eared Owl",
-        "ScientificName": "Asio flammeus"
+        "ScientificName": "Asio flammeus",
+        "primaryGroup": "owls",
+        "Level": 4
     },
     {
         "Species": "Nightjar",
-        "ScientificName": "Caprimulgus europaeus"
+        "ScientificName": "Caprimulgus europaeus",
+        "Level": 2
     },
     {
         "Species": "Swift",
@@ -792,71 +1099,101 @@ module.exports = [
     },
     {
         "Species": "Kingfisher",
-        "ScientificName": "Alcedo atthis"
+        "ScientificName": "Alcedo atthis",
+        "Level": 3
     },
     {
         "Species": "Bee-eater",
-        "ScientificName": "Merops apiaster"
+        "ScientificName": "Merops apiaster",
+        "Level": 4
     },
     {
         "Species": "Hoopoe",
-        "ScientificName": "Upupa epops"
+        "ScientificName": "Upupa epops",
+        "Level": 4
     },
     {
         "Species": "Wryneck",
-        "ScientificName": "Jynx torquilla"
+        "ScientificName": "Jynx torquilla",
+        "primaryGroup": "woodpeckers",
+        "Level": 5
     },
     {
         "Species": "Lesser Spotted Woodpecker",
-        "ScientificName": "Dryobates minor"
+        "ScientificName": "Dryobates minor",
+        "primaryGroup": "woodpeckers",
+        "Level": 3
     },
     {
         "Species": "Great Spotted Woodpecker",
-        "ScientificName": "Dendrocopos major"
+        "ScientificName": "Dendrocopos major",
+        "primaryGroup": "woodpeckers",
+        "Level": 1
     },
     {
         "Species": "Green Woodpecker",
-        "ScientificName": "Picus viridis"
+        "ScientificName": "Picus viridis",
+        "primaryGroup": "woodpeckers",
+        "Level": 1
     },
     {
         "Species": "Kestrel",
-        "ScientificName": "Falco tinnunculus"
+        "ScientificName": "Falco tinnunculus",
+        "primaryGroup": "raptors",
+        "Level": 3
     },
     {
         "Species": "Red-footed Falcon",
-        "ScientificName": "Falco vespertinus"
+        "ScientificName": "Falco vespertinus",
+        "primaryGroup": "raptors",
+        "Level": 5
     },
     {
         "Species": "Merlin",
-        "ScientificName": "Falco columbarius"
+        "ScientificName": "Falco columbarius",
+        "primaryGroup": "raptors",
+        "Level": 5
     },
     {
         "Species": "Hobby",
-        "ScientificName": "Falco subbuteo"
+        "ScientificName": "Falco subbuteo",
+        "primaryGroup": "raptors",
+        "Level": 5
     },
     {
         "Species": "Peregrine",
-        "ScientificName": "Falco peregrinus"
+        "ScientificName": "Falco peregrinus",
+        "primaryGroup": "raptors",
+        "Level": 3
     },
     {
         "Species": "Ring-necked Parakeet",
-        "ScientificName": "Psittacula krameri"
+        "ScientificName": "Psittacula krameri",
+        "primaryGroup": "passerines",
+        "Level": 2
     },
     {
         "Species": "Red-backed Shrike",
-        "ScientificName": "Lanius collurio"
+        "ScientificName": "Lanius collurio",
+        "primaryGroup": "shrikes",
+        "Level": 4
     },
     {
         "Species": "Great Grey Shrike",
-        "ScientificName": "Lanius excubitor"
+        "ScientificName": "Lanius excubitor",
+        "primaryGroup": "shrikes",
+        "Level": 4
     },
     {
         "Species": "Golden Oriole",
-        "ScientificName": "Oriolus oriolus"
+        "ScientificName": "Oriolus oriolus",
+        "Level": 5
     },
     {
         "Species": "Jay",
-        "ScientificName": "Garrulus glandarius"
+        "ScientificName": "Garrulus glandarius",
+        "primaryGroup": "crows",
+        "Level": 2
     },
     {
         "Species": "Magpie",
@@ -867,7 +1204,8 @@ module.exports = [
     {
         "Species": "Chough",
         "ScientificName": "Pyrrhocorax pyrrhocorax",
-        "primaryGroup": "crows"
+        "primaryGroup": "crows",
+        "Level": 3
     },
     {
         "Species": "Jackdaw",
@@ -895,7 +1233,8 @@ module.exports = [
     },
     {
         "Species": "Waxwing",
-        "ScientificName": "Bombycilla garrulus"
+        "ScientificName": "Bombycilla garrulus",
+        "Level": 3
     },
     {
         "Species": "Coal Tit",
@@ -906,17 +1245,20 @@ module.exports = [
     {
         "Species": "Crested Tit",
         "ScientificName": "Lophophanes cristatus",
-        "primaryGroup": "tits"
+        "primaryGroup": "tits",
+        "Level": 3
     },
     {
         "Species": "Marsh Tit",
         "ScientificName": "Poecile palustris",
-        "primaryGroup": "tits"
+        "primaryGroup": "tits",
+        "Level": 3
     },
     {
         "Species": "Willow Tit",
         "ScientificName": "Poecile montanus",
-        "primaryGroup": "tits"
+        "primaryGroup": "tits",
+        "Level": 4
     },
     {
         "Species": "Blue Tit",
@@ -932,15 +1274,20 @@ module.exports = [
     },
     {
         "Species": "Penduline Tit",
-        "ScientificName": "Remiz pendulinus"
+        "ScientificName": "Remiz pendulinus",
+        "Level": 4
     },
     {
         "Species": "Bearded Tit",
-        "ScientificName": "Panurus biarmicus"
+        "ScientificName": "Panurus biarmicus",
+        "primaryGroup": "passerines",
+        "Level": 3
     },
     {
         "Species": "Woodlark",
-        "ScientificName": "Lullula arborea"
+        "ScientificName": "Lullula arborea",
+        "primaryGroup": "passerines",
+        "Level": 3
     },
     {
         "Species": "Skylark",
@@ -950,7 +1297,9 @@ module.exports = [
     },
     {
         "Species": "Shore Lark",
-        "ScientificName": "Eremophila alpestris"
+        "ScientificName": "Eremophila alpestris",
+        "primaryGroup": "passerines",
+        "Level": 5
     },
     {
         "Species": "Sand Martin",
@@ -972,12 +1321,14 @@ module.exports = [
     },
     {
         "Species": "Cetti's Warbler",
-        "ScientificName": "Cettia cetti"
+        "ScientificName": "Cettia cetti",
+        "Level": 3
     },
     {
         "Species": "Long-tailed Tit",
         "ScientificName": "Aegithalos caudatus",
-        "primaryGroup": "tits"
+        "primaryGroup": "tits",
+        "Level": 2
     },
     {
         "Species": "Willow Warbler",
@@ -994,24 +1345,32 @@ module.exports = [
     {
         "Species": "Wood Warbler",
         "ScientificName": "Phylloscopus sibilatrix",
-        "primaryGroup": "woodland_warblers"
+        "primaryGroup": "woodland_warblers",
+        "Level": 3
     },
     {
         "Species": "Pallas's Warbler",
-        "ScientificName": "Phylloscopus proregulus"
+        "ScientificName": "Phylloscopus proregulus",
+        "primaryGroup": "passerines",
+        "Level": 5
     },
     {
         "Species": "Yellow-browed Warbler",
-        "ScientificName": "Phylloscopus inornatus"
+        "ScientificName": "Phylloscopus inornatus",
+        "primaryGroup": "passerines",
+        "Level": 3
     },
     {
         "Species": "Hume's Warbler",
-        "ScientificName": "Phylloscopus humei"
+        "ScientificName": "Phylloscopus humei",
+        "primaryGroup": "passerines",
+        "Level": 5
     },
     {
         "Species": "Great Reed Warbler",
         "ScientificName": "Acrocephalus arundinaceus",
-        "primaryGroup": "marshland_warblers"
+        "primaryGroup": "marshland_warblers",
+        "Level": 3
     },
     {
         "Species": "Sedge Warbler",
@@ -1027,20 +1386,27 @@ module.exports = [
     },
     {
         "Species": "Eastern Olivaceous Warbler",
-        "ScientificName": "Iduna pallida"
+        "ScientificName": "Iduna pallida",
+        "primaryGroup": "scrub_warblers",
+        "Level": 5
     },
     {
         "Species": "Melodious Warbler",
-        "ScientificName": "Hippolais polyglotta"
+        "ScientificName": "Hippolais polyglotta",
+        "primaryGroup": "scrub_warblers",
+        "Level": 5
     },
     {
         "Species": "Grasshopper Warbler",
-        "ScientificName": "Locustella naevia"
+        "ScientificName": "Locustella naevia",
+        "primaryGroup": "marshland_warblers",
+        "Level": 2
     },
     {
         "Species": "Savi's Warbler",
         "ScientificName": "Locustella luscinioides",
-        "primaryGroup": "marshland_warblers"
+        "primaryGroup": "marshland_warblers",
+        "Level": 4
     },
     {
         "Species": "Blackcap",
@@ -1051,64 +1417,80 @@ module.exports = [
     {
         "Species": "Garden Warbler",
         "ScientificName": "Sylvia borin",
-        "primaryGroup": "woodland_warblers"
+        "primaryGroup": "woodland_warblers",
+        "Level": 2
     },
     {
         "Species": "Barred Warbler",
-        "ScientificName": "Sylvia nisoria"
+        "ScientificName": "Sylvia nisoria",
+        "primaryGroup": "scrub_warblers",
+        "Level": 5
     },
     {
         "Species": "Lesser Whitethroat",
         "ScientificName": "Sylvia curruca",
         "Level": 1,
-        "primaryGroup": "farmland_warblers"
+        "primaryGroup": "scrub_warblers"
     },
     {
         "Species": "Whitethroat",
         "ScientificName": "Sylvia communis",
         "Level": 1,
-        "primaryGroup": "farmland_warblers"
+        "primaryGroup": "scrub_warblers"
     },
     {
         "Species": "Dartford Warbler",
-        "ScientificName": "Sylvia undata"
+        "ScientificName": "Sylvia undata",
+        "primaryGroup": "scrub_warblers",
+        "Level": 3
     },
     {
         "Species": "Firecrest",
-        "ScientificName": "Regulus ignicapilla"
+        "ScientificName": "Regulus ignicapilla",
+        "primaryGroup": "crests",
+        "Level": 3
     },
     {
         "Species": "Goldcrest",
         "ScientificName": "Regulus regulus",
-        "Level": 1
+        "Level": 1,
+        "primaryGroup": "crests"
     },
     {
         "Species": "Wren",
         "ScientificName": "Troglodytes troglodytes",
         "Level": 1,
-        "primaryGroup": "garden_regulars"
+        "primaryGroup": "passerines"
     },
     {
         "Species": "Nuthatch",
         "ScientificName": "Sitta europaea",
-        "Level": 2
+        "Level": 2,
+        "primaryGroup": "passerines"
     },
     {
         "Species": "Treecreeper",
-        "ScientificName": "Certhia familiaris"
+        "ScientificName": "Certhia familiaris",
+        "primaryGroup": "passerines",
+        "Level": 2
     },
     {
         "Species": "Rose-coloured Starling",
-        "ScientificName": "Pastor roseus"
+        "ScientificName": "Pastor roseus",
+        "primaryGroup": "passerines",
+        "Level": 5
     },
     {
         "Species": "Starling",
         "ScientificName": "Sturnus vulgaris",
-        "primaryGroup": "garden_regulars"
+        "primaryGroup": "passerines",
+        "Level": 1
     },
     {
         "Species": "Ring Ouzel",
-        "ScientificName": "Turdus torquatus"
+        "ScientificName": "Turdus torquatus",
+        "primaryGroup": "thrushes",
+        "Level": 3
     },
     {
         "Species": "Blackbird",
@@ -1118,17 +1500,21 @@ module.exports = [
     },
     {
         "Species": "Dusky Thrush",
-        "ScientificName": "Turdus eunomus"
+        "ScientificName": "Turdus eunomus",
+        "primaryGroup": "thrushes",
+        "Level": 5
     },
     {
         "Species": "Fieldfare",
         "ScientificName": "Turdus pilaris",
-        "primaryGroup": "thrushes"
+        "primaryGroup": "thrushes",
+        "Level": 2
     },
     {
         "Species": "Redwing",
         "ScientificName": "Turdus iliacus",
-        "primaryGroup": "thrushes"
+        "primaryGroup": "thrushes",
+        "Level": 2
     },
     {
         "Species": "Song Thrush",
@@ -1144,11 +1530,15 @@ module.exports = [
     },
     {
         "Species": "American Robin",
-        "ScientificName": "Turdus migratorius"
+        "ScientificName": "Turdus migratorius",
+        "primaryGroup": "thrushes",
+        "Level": 5
     },
     {
         "Species": "Spotted Flycatcher",
-        "ScientificName": "Muscicapa striata"
+        "ScientificName": "Muscicapa striata",
+        "primaryGroup": "passerines",
+        "Level": 3
     },
     {
         "Species": "Robin",
@@ -1158,72 +1548,93 @@ module.exports = [
     },
     {
         "Species": "Thrush Nightingale",
-        "ScientificName": "Luscinia luscinia"
+        "ScientificName": "Luscinia luscinia",
+        "primaryGroup": "passerines",
+        "Level": 4
     },
     {
         "Species": "Nightingale",
-        "ScientificName": "Luscinia megarhynchos"
+        "ScientificName": "Luscinia megarhynchos",
+        "primaryGroup": "passerines",
+        "Level": 1
     },
     {
         "Species": "Red-flanked Bluetail",
-        "ScientificName": "Tarsiger cyanurus"
+        "ScientificName": "Tarsiger cyanurus",
+        "primaryGroup": "passerines",
+        "Level": 5
     },
     {
         "Species": "Pied Flycatcher",
-        "ScientificName": "Ficedula hypoleuca"
+        "ScientificName": "Ficedula hypoleuca",
+        "primaryGroup": "passerines",
+        "Level": 3
     },
     {
         "Species": "Black Redstart",
         "ScientificName": "Phoenicurus ochruros",
-        "primaryGroup": "chats"
+        "primaryGroup": "chats",
+        "Level": 4
     },
     {
         "Species": "Redstart",
         "ScientificName": "Phoenicurus phoenicurus",
-        "primaryGroup": "chats"
+        "primaryGroup": "chats",
+        "Level": 2
     },
     {
         "Species": "Whinchat",
         "ScientificName": "Saxicola rubetra",
-        "primaryGroup": "chats"
+        "primaryGroup": "chats",
+        "Level": 3
     },
     {
         "Species": "Stonechat",
         "ScientificName": "Saxicola rubicola",
-        "primaryGroup": "chats"
+        "primaryGroup": "chats",
+        "Level": 3
     },
     {
         "Species": "Wheatear",
         "ScientificName": "Oenanthe oenanthe",
-        "primaryGroup": "chats"
+        "primaryGroup": "chats",
+        "Level": 3
     },
     {
         "Species": "Dipper",
-        "ScientificName": "Cinclus cinclus"
+        "ScientificName": "Cinclus cinclus",
+        "primaryGroup": "passerines",
+        "Level": 3
     },
     {
         "Species": "House Sparrow",
         "ScientificName": "Passer domesticus",
         "Level": 1,
-        "primaryGroup": "garden_regulars"
+        "primaryGroup": "passerines"
     },
     {
         "Species": "Spanish Sparrow",
-        "ScientificName": "Passer hispaniolensis"
+        "ScientificName": "Passer hispaniolensis",
+        "primaryGroup": "passerines",
+        "Level": 5
     },
     {
         "Species": "Tree Sparrow",
-        "ScientificName": "Passer montanus"
+        "ScientificName": "Passer montanus",
+        "primaryGroup": "passerines",
+        "Level": 3
     },
     {
         "Species": "Dunnock",
         "ScientificName": "Prunella modularis",
         "Level": 1,
-        "primaryGroup": "garden_regulars"
+        "primaryGroup": "passerines"
     },
     {
         "Species": "Yellow Wagtail",
-        "ScientificName": "Motacilla flava"
+        "ScientificName": "Motacilla flava",
+        "primaryGroup": "wagtails",
+        "Level": 3
     },
     {
         "Species": "Grey Wagtail",
@@ -1239,41 +1650,57 @@ module.exports = [
     },
     {
         "Species": "Meadow Pipit",
-        "ScientificName": "Anthus pratensis"
+        "ScientificName": "Anthus pratensis",
+        "primaryGroup": "pipits",
+        "Level": 2
     },
     {
         "Species": "Tree Pipit",
-        "ScientificName": "Anthus trivialis"
+        "ScientificName": "Anthus trivialis",
+        "primaryGroup": "pipits",
+        "Level": 3
     },
     {
         "Species": "Water Pipit",
-        "ScientificName": "Anthus spinoletta"
+        "ScientificName": "Anthus spinoletta",
+        "primaryGroup": "pipits",
+        "Level": 5
     },
     {
         "Species": "Rock Pipit",
-        "ScientificName": "Anthus petrosus"
+        "ScientificName": "Anthus petrosus",
+        "primaryGroup": "pipits",
+        "Level": 4
     },
     {
         "Species": "Chaffinch",
         "ScientificName": "Fringilla coelebs",
+        "primaryGroup": "finches",
         "Level": 1
     },
     {
         "Species": "Brambling",
-        "ScientificName": "Fringilla montifringilla"
+        "ScientificName": "Fringilla montifringilla",
+        "primaryGroup": "finches",
+        "Level": 3
     },
     {
         "Species": "Hawfinch",
-        "ScientificName": "Coccothraustes coccothraustes"
+        "ScientificName": "Coccothraustes coccothraustes",
+        "primaryGroup": "finches",
+        "Level": 3
     },
     {
         "Species": "Bullfinch",
         "ScientificName": "Pyrrhula pyrrhula",
-        "Level": 2
+        "Level": 2,
+        "primaryGroup": "finches"
     },
     {
         "Species": "Common Rosefinch",
-        "ScientificName": "Carpodacus erythrinus"
+        "ScientificName": "Carpodacus erythrinus",
+        "primaryGroup": "finches",
+        "Level": 4
     },
     {
         "Species": "Greenfinch",
@@ -1284,25 +1711,25 @@ module.exports = [
     {
         "Species": "Twite",
         "ScientificName": "Linaria flavirostris",
-        "primaryGroup": "linaria"
+        "primaryGroup": "finches",
+        "Level": 4
     },
     {
         "Species": "Linnet",
         "ScientificName": "Linaria cannabina",
         "Level": 2,
-        "primaryGroup": "linaria"
+        "primaryGroup": "finches"
     },
     {
         "Species": "Lesser Redpoll",
-        "ScientificName": "Acanthis cabaret"
-    },
-    {
-        "Species": "Scottish Crossbill",
-        "ScientificName": "Loxia scotica"
+        "ScientificName": "Acanthis cabaret",
+        "primaryGroup": "finches",
+        "Level": 3
     },
     {
         "Species": "Common Crossbill",
-        "ScientificName": "Loxia curvirostra"
+        "ScientificName": "Loxia curvirostra",
+        "primaryGroup": "finches"
     },
     {
         "Species": "Goldfinch",
@@ -1312,16 +1739,21 @@ module.exports = [
     },
     {
         "Species": "Serin",
-        "ScientificName": "Serinus serinus"
+        "ScientificName": "Serinus serinus",
+        "primaryGroup": "finches",
+        "Level": 4
     },
     {
         "Species": "Siskin",
         "ScientificName": "Spinus spinus",
-        "Level": 2
+        "Level": 2,
+        "primaryGroup": "finches"
     },
     {
         "Species": "Corn Bunting",
-        "ScientificName": "Emberiza calandra"
+        "ScientificName": "Emberiza calandra",
+        "primaryGroup": "buntings",
+        "Level": 3
     },
     {
         "Species": "Yellowhammer",
@@ -1331,7 +1763,9 @@ module.exports = [
     },
     {
         "Species": "Ortolan Bunting",
-        "ScientificName": "Emberiza hortulana"
+        "ScientificName": "Emberiza hortulana",
+        "primaryGroup": "buntings",
+        "Level": 5
     },
     {
         "Species": "Reed Bunting",
@@ -1341,14 +1775,20 @@ module.exports = [
     },
     {
         "Species": "White-throated Sparrow",
-        "ScientificName": "Zonotrichia albicollis"
+        "ScientificName": "Zonotrichia albicollis",
+        "primaryGroup": "passerines",
+        "Level": 5
     },
     {
         "Species": "Dark-eyed Junco",
-        "ScientificName": "Junco hyemalis"
+        "ScientificName": "Junco hyemalis",
+        "primaryGroup": "passerines",
+        "Level": 5
     },
     {
         "Species": "Snow Bunting",
-        "ScientificName": "Plectrophenax nivalis"
+        "ScientificName": "Plectrophenax nivalis",
+        "primaryGroup": "buntings",
+        "Level": 3
     }
 ]
