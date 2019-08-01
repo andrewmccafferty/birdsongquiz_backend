@@ -35,6 +35,7 @@ app.get('/api/birdsong', async (req, res) => {
 
 app.get('/api/test', (req, res) => {
     var ip = req.header('x-forwarded-for') || req.connection.remoteAddress
+    console.log(`ip captured was ${ip}`)
     res.send({yourIp: ip})
 });
 
