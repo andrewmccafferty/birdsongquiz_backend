@@ -33,4 +33,9 @@ app.get('/api/birdsong', async (req, res) => {
     });
 });
 
+app.get('/api/test', (req, res) => {
+    var ip = req.header('x-forwarded-for') || req.connection.remoteAddress
+    res.send({yourIp: ip})
+});
+
 app.listen(port, () => console.log(`Listening on port ${port}`));
