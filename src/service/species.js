@@ -17,6 +17,20 @@ const selectRandomSpecies = (level) => {
     return { selectedSpecies: randomElement.ScientificName, multipleChoiceOptions }
 };
 
+const selectRandomSpeciesFromFixedList = (scientificNameList) => {
+    let filteredSpeciesList = speciesList.filter((element) => {
+        return scientificNameList.some(name => name.toLowerCase() == element.ScientificName.toLowerCase())
+    })
+
+    let randomElement = arrayHelpers.getRandomArrayElement(filteredSpeciesList);
+    if (randomElement == null) {
+        return null
+    }
+
+
+    return { selectedSpecies: randomElement.ScientificName, multipleChoiceOptions: filteredSpeciesList}
+}
+
 const getMultipleChoiceOptions = (level, givenSpecies, numberOfOptions = 4) => {
     const options = [givenSpecies]
     let numberNeeded = numberOfOptions - 1
@@ -83,5 +97,6 @@ const listSpecies = () => {
 
 module.exports = {
     selectRandomSpecies: selectRandomSpecies,
+    selectRandomSpeciesFromFixedList: selectRandomSpeciesFromFixedList,
     listSpecies: listSpecies
 }
