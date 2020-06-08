@@ -33,4 +33,25 @@ app.get('/api/birdsong', async (req, res) => {
     });
 });
 
+app.get('/api/birdsong/head-to-head', async (req, res) => {
+    let speciesResult = speciesService.selectRandomSpeciesFromFixedList(req.query.species)
+    if (!speciesResult) {
+        res.send({ noRecordingFound: true});
+        return;
+    }
+
+    recordingsService.getRandomRecording(speciesResult.selectedSpecies).then((result) => {
+        res.send({
+            "multipleChoiceOptions": speciesResult.multipleChoiceOptions,
+            "recordingResult": result
+        });
+    });
+});
+
+app.get('/api/test', (req, res) => {
+    var ip = req.header('x-forwarded-for') || req.connection.remoteAddress
+    console.log(`ip captured was ${ip}`)
+    res.send({yourIp: ip})
+});
+
 app.listen(port, () => console.log(`Listening on port ${port}`));
